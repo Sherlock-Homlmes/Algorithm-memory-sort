@@ -1,5 +1,5 @@
 # Algorithm-memory-sort
-### **Created: 6-5-2022**
+### **Created: 2-5-2022**
 ### - **Memorysort là 1 thuật toán _đơn giản, đặc biệt hữu hiệu với việc sắp xếp những số không quá lớn trong 1 mảng gồm rất nhiều phần tử._**
 ### - **Thuật toán sử dụng RAM để có thể lưu trữ, sắp xếp các phần tử**
 
