@@ -11,7 +11,7 @@
 ### - Tràn RAM nếu sắp xếp 1 số quá lớn
 
 # Độ phức tạp:
-###  **2O(n)**
+###  **O(2n)**
  
 # Ý tưởng:
 
