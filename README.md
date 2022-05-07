@@ -15,19 +15,22 @@
  
 # Thuật toán:
 ```
-print("basic memory sort")
-result = []
-number_sort = len(array)
-number_limit = max(array)
+def basic_memory_sort(array):
+ print("basic memory sort")
+ result = []
+ number_sort = len(array)
+ number_limit = max(array)
 
-count_list  = [0] * (number_limit+1)
-for i in range(number_sort):
-  count_list[array[i]] += 1
+ count_list  = [0] * (number_limit+1)
+ for i in range(number_sort):
+   count_list[array[i]] += 1
 
-for i in range(number_limit):
-  if count_list[i] != 0:
-   for x in range(count_list[i]):
-     result.append(i)
+ for i in range(number_limit):
+   if count_list[i] != 0:
+    for x in range(count_list[i]):
+      result.append(i)
+      
+ return result
 ```
 
 # Khảo sát thời gian chạy:
