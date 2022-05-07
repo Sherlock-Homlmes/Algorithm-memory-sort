@@ -13,7 +13,23 @@
 # Độ phức tạp:
 ###  **O(2n)**
  
-# Ý tưởng:
+# Thuật toán:
+  
+  print("basic memory sort")
+  result = []
+  number_sort = len(array)
+  number_limit = max(array)
+
+  count_list  = [0] * (number_limit+1)
+  for i in range(number_sort):
+    count_list[array[i]] += 1
+    
+  for i in range(number_limit):
+    if count_list[i] != 0:
+     for x in range(count_list[i]):
+       result.append(i)
+
+# Khảo sát thời gian chạy:
 
 # Cải tiến cho Python:
 
