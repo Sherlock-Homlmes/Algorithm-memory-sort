@@ -14,9 +14,9 @@
 ###  **O(2n)**
  
 # Thuật toán:
-  
-> print("basic memory sort")
-> result = []
+```
+print("basic memory sort")
+result = []
 number_sort = len(array)
 number_limit = max(array)
 
@@ -28,6 +28,7 @@ for i in range(number_limit):
   if count_list[i] != 0:
    for x in range(count_list[i]):
      result.append(i)
+```
 
 # Khảo sát thời gian chạy:
 
