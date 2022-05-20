@@ -33,9 +33,9 @@ def basic_memory_sort(array):
  return result
 ```
 
-# Khảo sát thời gian chạy:
+# Khảo sát thời gian chạy:(inprocess...)
 
-# Cải tiến(Python):
+# Cải tiến(Python):(inprocess...)
 
  
 
