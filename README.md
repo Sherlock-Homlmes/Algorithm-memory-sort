@@ -35,7 +35,7 @@ def basic_memory_sort(array):
 
 # Khảo sát thời gian chạy:
 
-# Cải tiến cho Python:
+# Cải tiến(Python):
 
  
 
